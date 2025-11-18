@@ -1,4 +1,4 @@
-# GRIPL
+# GRIPL - GDPR Risk Identification in Processes using Large Language Models
 
 Identifying GDPR-Critical Tasks in Business Processes using Large Language Models
 
