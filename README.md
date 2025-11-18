@@ -7,7 +7,6 @@ Identifying GDPR-Critical Tasks in Business Processes using Large Language Model
 This repository contains the source code and research artifacts for the GRIPL master’s thesis. The system consists of a frontend, a backend, and a PostgreSQL database.
 
 In addition to the code, the repository includes:
-- The thesis manuscript in `thesis/`
 - A labeled dataset of BPMN files in `experiments/labeled-test-dataset/` for reproducing the evaluation
 - Experiment configurations and results in `experiments/`
 

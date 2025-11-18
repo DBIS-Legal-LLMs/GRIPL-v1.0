@@ -89,16 +89,3 @@ The backend provides several CLI commands for BPMN analysis and dataset evaluati
 * `-h` — Displays help for commands and options.
 
 > **Tip:** Use `-h` with any command (e.g., `analysis -h`) for detailed command-specific help.
-
-## API Documentation
-
-Swagger API documentation is available at:
-[https://gripl.mertendieckmann.de/api-docs](https://gripl.mertendieckmann.de/api-docs)
-
-This documentation reflects the latest **main branch deployment**.
-
-For the most up-to-date version, run the backend (and frontend) locally, then access it at:
-
-```
-http://localhost:8080/v3/api-docs
-```
