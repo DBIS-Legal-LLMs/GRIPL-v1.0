@@ -1,0 +1,56 @@
+.swagger-ui,
+.swagger-ui *:not([style*="color"]):not(span[style]):not(.json-schema-2020-12__attribute):not(.opblock-summary-method):not(.microlight) {
+    color: var(--foreground) !important;
+}
+
+.swagger-ui .scheme-container {
+    background-color: var(--card) !important;
+}
+
+.swagger-ui select {
+    background-color: var(--input) !important;
+}
+
+.swagger-ui .opblock .opblock-section-header {
+    background: hsl(var(--card)) !important;
+    color: hsl(var(--foreground)) !important;
+}
+
+.swagger-ui input {
+    background: hsl(var(--input)) !important;
+    color: hsl(var(--foreground)) !important;
+}
+
+.swagger-ui svg:not(:root) {
+    fill: hsl(var(--foreground)) !important;
+}
+
+.opblock-summary-method {
+    color: hsl(var(--card)) !important;
+}
+
+.body-param__text {
+    background: hsl(var(--input)) !important;
+}
+
+.swagger-ui .try-out__btn {
+    display: none !important;
+}
+.swagger-ui #operations-bpmn-controller-extractBpmnElements .try-out__btn {
+    display: inline-block !important;
+}
+.swagger-ui .opblock-get .try-out__btn {
+    display: inline-block !important;
+}
+.swagger-ui #operations-analysis-controller-analyzeBpmnForGdprPromptEngineering .try-out__btn {
+    display: inline-block !important;
+}
+.swagger-ui #operations-analysis-controller-analyzeBpmnForGdprBaseline .try-out__btn {
+    display: inline-block !important;
+}
+.swagger-ui #operations-evaluation-controller-evaluateStream .try-out__btn {
+    display: inline-block !important;
+}
+.swagger-ui #operations-evaluation-controller-evaluate .try-out__btn {
+    display: inline-block !important;
+}

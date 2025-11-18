@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Preprocessing & Prompt Engineering Analysis",
+    "endpoint": "/gdpr/analysis/prompt-engineering"
+  },
+  {
+    "name": "Baseline Analysis",
+    "endpoint": "/gdpr/analysis/baseline"
+  }
+]
