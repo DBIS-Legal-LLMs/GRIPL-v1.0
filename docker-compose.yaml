@@ -1,0 +1,54 @@
+version: "3.9"
+
+services:
+  gripl-frontend:
+    build:
+      context: ./gripl/gripl-frontend
+      dockerfile: Dockerfile
+      args:
+        API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8080}
+    image: ${FRONTEND_IMAGE:-mertend/gripl-frontend:latest}
+    container_name: ${FRONTEND_CONTAINER_NAME:-gripl-frontend}
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8080}
+    networks:
+      - app
+
+  gripl-backend:
+    build:
+      context: ./gripl/gripl-backend
+      dockerfile: Dockerfile
+    image: ${BACKEND_IMAGE:-mertend/gripl-backend:latest}
+    container_name: ${BACKEND_CONTAINER_NAME:-gripl-backend}
+    restart: unless-stopped
+    depends_on:
+      - gripl-postgres
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPEN_ROUTER_API_KEY=${OPEN_ROUTER_API_KEY}
+      - SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE:-prod}
+      - PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright
+      - FRONTEND_BASE_URL=${FRONTEND_BASE_URL:-http://localhost:3000}
+    env_file:
+      - ./gripl/gripl-backend/.env.docker
+    volumes:
+      - playwright-browsers:/root/.cache/ms-playwright
+    networks:
+      - app
+
+  gripl-postgres:
+    image: postgres:15
+    container_name: ${POSTGRES_CONTAINER_NAME:-gripl-postgres}
+    restart: unless-stopped
+    volumes:
+      - gripl-postgres-data:/var/lib/postgresql/data
+    networks:
+      - app
+
+volumes:
+  playwright-browsers:
+  gripl-postgres-data:
+
+networks:
+  app:

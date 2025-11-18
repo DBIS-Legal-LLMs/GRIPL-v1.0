@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  gripl-frontend:
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=${NEXT_PUBLIC_API_BASE_URL:-http://gripl-backend:8080}
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.gripl-frontend.rule=Host(`${GRIPL_HOST}`) || Host(`www.${GRIPL_HOST}`)
+      - traefik.http.routers.gripl-frontend.entrypoints=websecure
+      - traefik.http.routers.gripl-frontend.tls=true
+      - traefik.http.routers.gripl-frontend.tls.certresolver=lets-encrypt
+      - traefik.http.services.gripl-frontend.loadbalancer.server.port=3000
+      - traefik.docker.network=${TRAEFIK_NETWORK:-web}
+      - com.centurylinklabs.watchtower.enable=true
+    networks:
+      - app
+      - traefik
+
+  gripl-backend:
+    environment:
+      - FRONTEND_BASE_URL=${FRONTEND_BASE_URL:-https://${GRIPL_HOST}}
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.gripl-backend.rule=Host(`${GRIPL_HOST}`) && PathPrefix(`/api/`) || Host(`www.${GRIPL_HOST}`) && PathPrefix(`/api/`)
+      - traefik.http.routers.gripl-backend.entrypoints=websecure
+      - traefik.http.routers.gripl-backend.tls=true
+      - traefik.http.routers.gripl-backend.tls.certresolver=lets-encrypt
+      - traefik.http.middlewares.gripl-backend-strip-prefix.stripprefix.prefixes=/api
+      - traefik.http.routers.gripl-backend.middlewares=gripl-backend-strip-prefix
+      - traefik.http.services.gripl-backend.loadbalancer.server.port=8080
+      - traefik.docker.network=${TRAEFIK_NETWORK:-web}
+      - com.centurylinklabs.watchtower.enable=true
+    networks:
+      - app
+      - traefik
+
+  gripl-postgres:
+    labels:
+      - com.centurylinklabs.watchtower.enable=true
+
+networks:
+  traefik:
+    external: true
+    name: ${TRAEFIK_NETWORK:-web}

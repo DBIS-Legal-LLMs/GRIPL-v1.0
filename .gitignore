@@ -1,0 +1,8 @@
+.idea/*
+!.idea/modules.xml
+!*.iml
+!.idea/runConfigurations/
+
+.env.*
+!.env.local.example
+!.env.prod.example
