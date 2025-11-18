@@ -1,10 +1,10 @@
-# GRIPL — Master’s Thesis
+# GRIPL
 
 Identifying GDPR-Critical Tasks in Business Processes using Large Language Models
 
 ## Overview
 
-This repository contains the source code and research artifacts for the GRIPL master’s thesis. The system consists of a frontend, a backend, and a PostgreSQL database.
+This repository contains the source code and research artifacts for the GRIPL framework. The system consists of a frontend, a backend, and a PostgreSQL database.
 
 In addition to the code, the repository includes:
 - A labeled dataset of BPMN files in `experiments/labeled-test-dataset/` for reproducing the evaluation
