@@ -88,3 +88,35 @@ See [gripl/gripl-frontend/README.md](gripl/gripl-frontend/README.md) for instruc
 Local development requires a running PostgreSQL database. The simplest option is to start a fresh instance with Docker and set the backend’s database connection via environment variables. On startup, the backend will automatically create any missing tables.
 
 Alternatively, you can use `docker-compose.local.yaml` to bring up the entire stack (frontend, backend, PostgreSQL) with Docker as explained above and point your locally running frontend and backend to that database as well.
+
+## Tool Components
+The GRIPL tool consists of three main components:
+
+1. The Sandbox
+Here, users can model or import processes and let the LLM analyze the process model. 
+<img width="2232" height="1265" alt="sandbox-analyzed-model-annotated" src="https://github.com/user-attachments/assets/1e7ac03b-2f76-4e10-8f21-ed4fc1d4af16" />
+
+The model also creates a reasoning for the activity classification.
+<img width="1138" height="607" alt="sandbox-ai-reasoning" src="https://github.com/user-attachments/assets/7ed9f60b-18d8-4a06-b8b5-09e4e15d682b" />
+
+2. The Labeling Editor
+Here, users can create and label their own BPMN 2.0 dataset. A reasoning can also be added to the labels.
+<img width="2227" height="1258" alt="labeling-datasets" src="https://github.com/user-attachments/assets/7651e26e-b3a5-48bb-beca-67daee7d6c7e" />
+
+<img width="2232" height="1260" alt="labeling-editor-annotated" src="https://github.com/user-attachments/assets/e7f03bc1-2a74-44c6-adf7-e05f906594a2" />
+
+3. The evaluation plattform
+Evaluations can be configured via the GUI or a YAML file.
+<img width="1137" height="1183" alt="evaluation-config_new" src="https://github.com/user-attachments/assets/7ccd4c36-a674-4a69-88c5-6ae181fae186" />
+
+The results are represented by model 
+<img width="1327" height="1211" alt="evaluation-result-by-model" src="https://github.com/user-attachments/assets/52a3e330-22d4-42ad-9e70-14e3a4baef7a" />
+
+or by run 
+<img width="1318" height="1125" alt="evaluation-result-by-run_new" src="https://github.com/user-attachments/assets/c82634f2-71c4-4bf8-9b94-5a059ecada9c" />
+
+And also by test case 
+<img width="1503" height="1268" alt="evaluation-result-by-testcase_new" src="https://github.com/user-attachments/assets/6272dfc7-533e-47dc-a57d-c143e1caa864" />
+
+
+
