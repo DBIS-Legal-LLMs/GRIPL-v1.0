@@ -43,7 +43,7 @@
       }
     ],
     "timestamp": "2026-02-23T11:14:53.688+00:00",
-    "totalTestCases": 95,
+    "totalTestCases": 93,
     "defaultEvaluationEndpoint": "/gdpr/analysis/prompt-engineering",
     "seed": 24523833,
     "totalRepetitions": 5,
