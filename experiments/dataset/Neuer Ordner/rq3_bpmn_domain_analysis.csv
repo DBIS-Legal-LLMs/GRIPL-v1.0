@@ -1,7 +1,0 @@
-Domain,Metric,Mean,Std Dev,Sample Size
-High-Criticality Domains,p,0.8601,0.2296,61
-High-Criticality Domains,r,0.8977,0.1286,60
-High-Criticality Domains,f1,0.8396,0.2023,61
-Other Domains,p,0.6948,0.2852,32
-Other Domains,r,0.9298,0.0753,32
-Other Domains,f1,0.7097,0.2754,32
