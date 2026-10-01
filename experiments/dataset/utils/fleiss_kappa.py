@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
 from statsmodels.stats.inter_rater import fleiss_kappa
+from pathlib import Path
 from scipy.stats import norm
 
-df_aktivitaeten = pd.read_excel('annotations.xlsx', sheet_name='annotations')
+ANNOTATIONS = Path(__file__).resolve().parent.parent / 'Annotated Dataset' / 'annotations.xlsx'
+df_aktivitaeten = pd.read_excel(ANNOTATIONS, sheet_name='annotations')
 
 rater_cols = ['annotator_1', 'annotator_2', 'annotator_3']
 rater_data = df_aktivitaeten[rater_cols].dropna()
