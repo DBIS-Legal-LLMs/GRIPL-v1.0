@@ -47,7 +47,7 @@
     "defaultEvaluationEndpoint": "/gdpr/analysis/prompt-engineering",
     "seed": 24523833,
     "totalRepetitions": 5,
-    "markdown": "## Evaluation Metadata\n- **Models:** GPT-OSS-20B, GPT-OSS-120B, GPT-4o (2024-11-20)\n- **Temperatures:** 0.1, 0.1, 0.1\n- **Top Ps:** 1.0, 1.0, 1.0\n- **Datasets:** DatasetInfo(id=4, name=Hospital Processes), DatasetInfo(id=5, name=Human Resources Processes), DatasetInfo(id=6, name=Commercial Operations), DatasetInfo(id=7, name=Logistics & Production), DatasetInfo(id=8, name=Other), DatasetInfo(id=9, name=University - Academic Operations)\n- **Total Test Cases:** 95\n- **Repetitions:** 5\n- **Seed:** 24523833\n- **Timestamp:** 2026-02-23 11:14:53.688\n- **Default Evaluation Endpoint:** /gdpr/analysis/prompt-engineering"
+    "markdown": "## Evaluation Metadata\n- **Models:** GPT-OSS-20B, GPT-OSS-120B, GPT-4o (2024-11-20)\n- **Temperatures:** 0.1, 0.1, 0.1\n- **Top Ps:** 1.0, 1.0, 1.0\n- **Datasets:** DatasetInfo(id=4, name=Hospital Processes), DatasetInfo(id=5, name=Human Resources Processes), DatasetInfo(id=6, name=Commercial Operations), DatasetInfo(id=7, name=Logistics & Production), DatasetInfo(id=8, name=Other), DatasetInfo(id=9, name=University - Academic Operations)\n- **Total Test Cases:** 93\n- **Repetitions:** 5\n- **Seed:** 24523833\n- **Timestamp:** 2026-02-23 11:14:53.688\n- **Default Evaluation Endpoint:** /gdpr/analysis/prompt-engineering"
   },
   "testCasesByRun": {
     "1": [
@@ -96980,10 +96980,10 @@
         "label": "GPT-OSS-20B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 43,
           "failed": 50,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 0,
           "precision": 0.8247863247863247,
           "recall": 0.9368932038834952,
@@ -96993,17 +96993,17 @@
           "totalFalsePositives": 123,
           "totalFalseNegatives": 39,
           "totalTrueNegatives": 200,
-          "markdown": "## Summary\nTotal: 95\nPassed: 43\nFailed: 50\nError: 2\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.828\nPrecision: 0.825\nRecall: 0.937\nF1-Score: 0.877\n\n### Confusion Matrix\nTrue Positives: 579\nFalse Positives: 123\nFalse Negatives: 39\nTrue Negatives: 200"
+          "markdown": "## Summary\nTotal: 93\nPassed: 43\nFailed: 50\nError: 0\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.828\nPrecision: 0.825\nRecall: 0.937\nF1-Score: 0.877\n\n### Confusion Matrix\nTrue Positives: 579\nFalse Positives: 123\nFalse Negatives: 39\nTrue Negatives: 200"
         }
       },
       {
         "label": "GPT-OSS-120B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 36,
           "failed": 57,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 4,
           "precision": 0.8054755043227666,
           "recall": 0.9045307443365695,
@@ -97013,17 +97013,17 @@
           "totalFalsePositives": 135,
           "totalFalseNegatives": 59,
           "totalTrueNegatives": 188,
-          "markdown": "## Summary\nTotal: 95\nPassed: 36\nFailed: 57\nError: 2\nTotal Retries: 4\n\n### Metrics\nAccuracy: 0.794\nPrecision: 0.805\nRecall: 0.905\nF1-Score: 0.852\n\n### Confusion Matrix\nTrue Positives: 559\nFalse Positives: 135\nFalse Negatives: 59\nTrue Negatives: 188"
+          "markdown": "## Summary\nTotal: 93\nPassed: 36\nFailed: 57\nError: 0\nTotal Retries: 4\n\n### Metrics\nAccuracy: 0.794\nPrecision: 0.805\nRecall: 0.905\nF1-Score: 0.852\n\n### Confusion Matrix\nTrue Positives: 559\nFalse Positives: 135\nFalse Negatives: 59\nTrue Negatives: 188"
         }
       },
       {
         "label": "GPT-4o (2024-11-20)",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 26,
           "failed": 67,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 0,
           "precision": 0.8692449355432781,
           "recall": 0.7637540453074434,
@@ -97033,7 +97033,7 @@
           "totalFalsePositives": 71,
           "totalFalseNegatives": 146,
           "totalTrueNegatives": 252,
-          "markdown": "## Summary\nTotal: 95\nPassed: 26\nFailed: 67\nError: 2\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.769\nPrecision: 0.869\nRecall: 0.764\nF1-Score: 0.813\n\n### Confusion Matrix\nTrue Positives: 472\nFalse Positives: 71\nFalse Negatives: 146\nTrue Negatives: 252"
+          "markdown": "## Summary\nTotal: 93\nPassed: 26\nFailed: 67\nError: 0\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.769\nPrecision: 0.869\nRecall: 0.764\nF1-Score: 0.813\n\n### Confusion Matrix\nTrue Positives: 472\nFalse Positives: 71\nFalse Negatives: 146\nTrue Negatives: 252"
         }
       }
     ],
@@ -97042,10 +97042,10 @@
         "label": "GPT-OSS-20B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 42,
           "failed": 51,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 0,
           "precision": 0.838150289017341,
           "recall": 0.9385113268608414,
@@ -97055,17 +97055,17 @@
           "totalFalsePositives": 112,
           "totalFalseNegatives": 38,
           "totalTrueNegatives": 211,
-          "markdown": "## Summary\nTotal: 95\nPassed: 42\nFailed: 51\nError: 2\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.841\nPrecision: 0.838\nRecall: 0.939\nF1-Score: 0.885\n\n### Confusion Matrix\nTrue Positives: 580\nFalse Positives: 112\nFalse Negatives: 38\nTrue Negatives: 211"
+          "markdown": "## Summary\nTotal: 93\nPassed: 42\nFailed: 51\nError: 0\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.841\nPrecision: 0.838\nRecall: 0.939\nF1-Score: 0.885\n\n### Confusion Matrix\nTrue Positives: 580\nFalse Positives: 112\nFalse Negatives: 38\nTrue Negatives: 211"
         }
       },
       {
         "label": "GPT-OSS-120B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 38,
           "failed": 55,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 3,
           "precision": 0.8141592920353983,
           "recall": 0.8932038834951457,
@@ -97075,17 +97075,17 @@
           "totalFalsePositives": 126,
           "totalFalseNegatives": 66,
           "totalTrueNegatives": 197,
-          "markdown": "## Summary\nTotal: 95\nPassed: 38\nFailed: 55\nError: 2\nTotal Retries: 3\n\n### Metrics\nAccuracy: 0.796\nPrecision: 0.814\nRecall: 0.893\nF1-Score: 0.852\n\n### Confusion Matrix\nTrue Positives: 552\nFalse Positives: 126\nFalse Negatives: 66\nTrue Negatives: 197"
+          "markdown": "## Summary\nTotal: 93\nPassed: 38\nFailed: 55\nError: 0\nTotal Retries: 3\n\n### Metrics\nAccuracy: 0.796\nPrecision: 0.814\nRecall: 0.893\nF1-Score: 0.852\n\n### Confusion Matrix\nTrue Positives: 552\nFalse Positives: 126\nFalse Negatives: 66\nTrue Negatives: 197"
         }
       },
       {
         "label": "GPT-4o (2024-11-20)",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 26,
           "failed": 67,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 0,
           "precision": 0.871268656716418,
           "recall": 0.7556634304207119,
@@ -97095,7 +97095,7 @@
           "totalFalsePositives": 69,
           "totalFalseNegatives": 151,
           "totalTrueNegatives": 254,
-          "markdown": "## Summary\nTotal: 95\nPassed: 26\nFailed: 67\nError: 2\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.766\nPrecision: 0.871\nRecall: 0.756\nF1-Score: 0.809\n\n### Confusion Matrix\nTrue Positives: 467\nFalse Positives: 69\nFalse Negatives: 151\nTrue Negatives: 254"
+          "markdown": "## Summary\nTotal: 93\nPassed: 26\nFailed: 67\nError: 0\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.766\nPrecision: 0.871\nRecall: 0.756\nF1-Score: 0.809\n\n### Confusion Matrix\nTrue Positives: 467\nFalse Positives: 69\nFalse Negatives: 151\nTrue Negatives: 254"
         }
       }
     ],
@@ -97104,10 +97104,10 @@
         "label": "GPT-OSS-20B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 41,
           "failed": 52,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 1,
           "precision": 0.8541666666666666,
           "recall": 0.9288025889967637,
@@ -97117,17 +97117,17 @@
           "totalFalsePositives": 98,
           "totalFalseNegatives": 44,
           "totalTrueNegatives": 225,
-          "markdown": "## Summary\nTotal: 95\nPassed: 41\nFailed: 52\nError: 2\nTotal Retries: 1\n\n### Metrics\nAccuracy: 0.849\nPrecision: 0.854\nRecall: 0.929\nF1-Score: 0.890\n\n### Confusion Matrix\nTrue Positives: 574\nFalse Positives: 98\nFalse Negatives: 44\nTrue Negatives: 225"
+          "markdown": "## Summary\nTotal: 93\nPassed: 41\nFailed: 52\nError: 0\nTotal Retries: 1\n\n### Metrics\nAccuracy: 0.849\nPrecision: 0.854\nRecall: 0.929\nF1-Score: 0.890\n\n### Confusion Matrix\nTrue Positives: 574\nFalse Positives: 98\nFalse Negatives: 44\nTrue Negatives: 225"
         }
       },
       {
         "label": "GPT-OSS-120B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 37,
           "failed": 56,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 4,
           "precision": 0.8393939393939394,
           "recall": 0.8964401294498382,
@@ -97137,17 +97137,17 @@
           "totalFalsePositives": 106,
           "totalFalseNegatives": 64,
           "totalTrueNegatives": 217,
-          "markdown": "## Summary\nTotal: 95\nPassed: 37\nFailed: 56\nError: 2\nTotal Retries: 4\n\n### Metrics\nAccuracy: 0.819\nPrecision: 0.839\nRecall: 0.896\nF1-Score: 0.867\n\n### Confusion Matrix\nTrue Positives: 554\nFalse Positives: 106\nFalse Negatives: 64\nTrue Negatives: 217"
+          "markdown": "## Summary\nTotal: 93\nPassed: 37\nFailed: 56\nError: 0\nTotal Retries: 4\n\n### Metrics\nAccuracy: 0.819\nPrecision: 0.839\nRecall: 0.896\nF1-Score: 0.867\n\n### Confusion Matrix\nTrue Positives: 554\nFalse Positives: 106\nFalse Negatives: 64\nTrue Negatives: 217"
         }
       },
       {
         "label": "GPT-4o (2024-11-20)",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 26,
           "failed": 67,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 0,
           "precision": 0.8597449908925319,
           "recall": 0.7637540453074434,
@@ -97157,7 +97157,7 @@
           "totalFalsePositives": 77,
           "totalFalseNegatives": 146,
           "totalTrueNegatives": 246,
-          "markdown": "## Summary\nTotal: 95\nPassed: 26\nFailed: 67\nError: 2\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.763\nPrecision: 0.860\nRecall: 0.764\nF1-Score: 0.809\n\n### Confusion Matrix\nTrue Positives: 472\nFalse Positives: 77\nFalse Negatives: 146\nTrue Negatives: 246"
+          "markdown": "## Summary\nTotal: 93\nPassed: 26\nFailed: 67\nError: 0\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.763\nPrecision: 0.860\nRecall: 0.764\nF1-Score: 0.809\n\n### Confusion Matrix\nTrue Positives: 472\nFalse Positives: 77\nFalse Negatives: 146\nTrue Negatives: 246"
         }
       }
     ],
@@ -97166,10 +97166,10 @@
         "label": "GPT-OSS-20B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 39,
           "failed": 53,
-          "error": 3,
+          "error": 1,
           "amountOfRetries": 0,
           "precision": 0.8208092485549133,
           "recall": 0.9311475409836065,
@@ -97179,17 +97179,17 @@
           "totalFalsePositives": 124,
           "totalFalseNegatives": 42,
           "totalTrueNegatives": 196,
-          "markdown": "## Summary\nTotal: 95\nPassed: 39\nFailed: 53\nError: 3\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.822\nPrecision: 0.821\nRecall: 0.931\nF1-Score: 0.873\n\n### Confusion Matrix\nTrue Positives: 568\nFalse Positives: 124\nFalse Negatives: 42\nTrue Negatives: 196"
+          "markdown": "## Summary\nTotal: 93\nPassed: 39\nFailed: 53\nError: 1\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.822\nPrecision: 0.821\nRecall: 0.931\nF1-Score: 0.873\n\n### Confusion Matrix\nTrue Positives: 568\nFalse Positives: 124\nFalse Negatives: 42\nTrue Negatives: 196"
         }
       },
       {
         "label": "GPT-OSS-120B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 32,
           "failed": 53,
-          "error": 10,
+          "error": 8,
           "amountOfRetries": 2,
           "precision": 0.8032520325203252,
           "recall": 0.9199255121042831,
@@ -97199,17 +97199,17 @@
           "totalFalsePositives": 121,
           "totalFalseNegatives": 43,
           "totalTrueNegatives": 167,
-          "markdown": "## Summary\nTotal: 95\nPassed: 32\nFailed: 53\nError: 10\nTotal Retries: 2\n\n### Metrics\nAccuracy: 0.801\nPrecision: 0.803\nRecall: 0.920\nF1-Score: 0.858\n\n### Confusion Matrix\nTrue Positives: 494\nFalse Positives: 121\nFalse Negatives: 43\nTrue Negatives: 167"
+          "markdown": "## Summary\nTotal: 93\nPassed: 32\nFailed: 53\nError: 8\nTotal Retries: 2\n\n### Metrics\nAccuracy: 0.801\nPrecision: 0.803\nRecall: 0.920\nF1-Score: 0.858\n\n### Confusion Matrix\nTrue Positives: 494\nFalse Positives: 121\nFalse Negatives: 43\nTrue Negatives: 167"
         }
       },
       {
         "label": "GPT-4o (2024-11-20)",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 26,
           "failed": 66,
-          "error": 3,
+          "error": 1,
           "amountOfRetries": 0,
           "precision": 0.8605947955390335,
           "recall": 0.7665562913907285,
@@ -97219,7 +97219,7 @@
           "totalFalsePositives": 75,
           "totalFalseNegatives": 141,
           "totalTrueNegatives": 244,
-          "markdown": "## Summary\nTotal: 95\nPassed: 26\nFailed: 66\nError: 3\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.766\nPrecision: 0.861\nRecall: 0.767\nF1-Score: 0.811\n\n### Confusion Matrix\nTrue Positives: 463\nFalse Positives: 75\nFalse Negatives: 141\nTrue Negatives: 244"
+          "markdown": "## Summary\nTotal: 93\nPassed: 26\nFailed: 66\nError: 1\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.766\nPrecision: 0.861\nRecall: 0.767\nF1-Score: 0.811\n\n### Confusion Matrix\nTrue Positives: 463\nFalse Positives: 75\nFalse Negatives: 141\nTrue Negatives: 244"
         }
       }
     ],
@@ -97228,10 +97228,10 @@
         "label": "GPT-OSS-20B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 44,
           "failed": 49,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 1,
           "precision": 0.8271954674220963,
           "recall": 0.9449838187702265,
@@ -97241,17 +97241,17 @@
           "totalFalsePositives": 122,
           "totalFalseNegatives": 34,
           "totalTrueNegatives": 201,
-          "markdown": "## Summary\nTotal: 95\nPassed: 44\nFailed: 49\nError: 2\nTotal Retries: 1\n\n### Metrics\nAccuracy: 0.834\nPrecision: 0.827\nRecall: 0.945\nF1-Score: 0.882\n\n### Confusion Matrix\nTrue Positives: 584\nFalse Positives: 122\nFalse Negatives: 34\nTrue Negatives: 201"
+          "markdown": "## Summary\nTotal: 93\nPassed: 44\nFailed: 49\nError: 0\nTotal Retries: 1\n\n### Metrics\nAccuracy: 0.834\nPrecision: 0.827\nRecall: 0.945\nF1-Score: 0.882\n\n### Confusion Matrix\nTrue Positives: 584\nFalse Positives: 122\nFalse Negatives: 34\nTrue Negatives: 201"
         }
       },
       {
         "label": "GPT-OSS-120B",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 39,
           "failed": 54,
-          "error": 2,
+          "error": 0,
           "amountOfRetries": 1,
           "precision": 0.8172804532577904,
           "recall": 0.9336569579288025,
@@ -97261,17 +97261,17 @@
           "totalFalsePositives": 129,
           "totalFalseNegatives": 41,
           "totalTrueNegatives": 194,
-          "markdown": "## Summary\nTotal: 95\nPassed: 39\nFailed: 54\nError: 2\nTotal Retries: 1\n\n### Metrics\nAccuracy: 0.819\nPrecision: 0.817\nRecall: 0.934\nF1-Score: 0.872\n\n### Confusion Matrix\nTrue Positives: 577\nFalse Positives: 129\nFalse Negatives: 41\nTrue Negatives: 194"
+          "markdown": "## Summary\nTotal: 93\nPassed: 39\nFailed: 54\nError: 0\nTotal Retries: 1\n\n### Metrics\nAccuracy: 0.819\nPrecision: 0.817\nRecall: 0.934\nF1-Score: 0.872\n\n### Confusion Matrix\nTrue Positives: 577\nFalse Positives: 129\nFalse Negatives: 41\nTrue Negatives: 194"
         }
       },
       {
         "label": "GPT-4o (2024-11-20)",
         "summary": {
           "type": "summary",
-          "total": 95,
+          "total": 93,
           "passed": 24,
           "failed": 65,
-          "error": 6,
+          "error": 4,
           "amountOfRetries": 0,
           "precision": 0.8673076923076923,
           "recall": 0.7529215358931552,
@@ -97281,199 +97281,16 @@
           "totalFalsePositives": 69,
           "totalFalseNegatives": 148,
           "totalTrueNegatives": 233,
-          "markdown": "## Summary\nTotal: 95\nPassed: 24\nFailed: 65\nError: 6\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.759\nPrecision: 0.867\nRecall: 0.753\nF1-Score: 0.806\n\n### Confusion Matrix\nTrue Positives: 451\nFalse Positives: 69\nFalse Negatives: 148\nTrue Negatives: 233"
+          "markdown": "## Summary\nTotal: 93\nPassed: 24\nFailed: 65\nError: 4\nTotal Retries: 0\n\n### Metrics\nAccuracy: 0.759\nPrecision: 0.867\nRecall: 0.753\nF1-Score: 0.806\n\n### Confusion Matrix\nTrue Positives: 451\nFalse Positives: 69\nFalse Negatives: 148\nTrue Negatives: 233"
         }
       }
     ]
   },
   "errorsByRun": {
-    "1": [
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      }
-    ],
-    "2": [
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      }
-    ],
-    "3": [
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      }
-    ],
+    "1": [],
+    "2": [],
+    "3": [],
     "4": [
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
       {
         "type": "error",
         "testCaseId": 121,
@@ -97530,24 +97347,6 @@
       },
       {
         "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
         "testCaseId": 135,
         "datasetId": 9,
         "testCaseName": "Immatrikulation",
@@ -97575,24 +97374,6 @@
       },
       {
         "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
         "testCaseId": 143,
         "datasetId": 9,
         "testCaseName": "Koordinierungsphase Studienplatzvergabe",
@@ -97602,42 +97383,6 @@
       }
     ],
     "5": [
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-20B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-OSS-120B"
-      },
       {
         "type": "error",
         "testCaseId": 20,
@@ -97673,24 +97418,6 @@
         "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: java.net.ConnectException\"}",
         "markdown": "## Error in Test Case Smart Home Sprachassistent (78)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: java.net.ConnectException\"}",
         "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
-        "testCaseId": 137,
-        "datasetId": 7,
-        "testCaseName": "Verpackungsmaschine",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "markdown": "## Error in Test Case Verpackungsmaschine (137)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"INTERNAL_ERROR\",\"message\":\"There was an internal error processing your request: null\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
-      },
-      {
-        "type": "error",
-        "testCaseId": 140,
-        "datasetId": 6,
-        "testCaseName": "Incident Management",
-        "errorMessage": "Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "markdown": "## Error in Test Case Incident Management (140)\n**Error Message:** Failed to evaluate BPMN XML at endpoint 'http://localhost:8080/gdpr/analysis/prompt-engineering': {\"code\":\"BPMN_PARSE_ERROR\",\"message\":\"BPMN XMl could not be parsed\"}",
-        "modelLabel": "GPT-4o (2024-11-20)"
       }
     ]
   },
@@ -97708,7 +97435,7 @@
       "stdPassed": 1.7204650534085253,
       "avgFailed": 51,
       "stdFailed": 1.4142135623730951,
-      "avgErrors": 2.2,
+      "avgErrors": 0.20000000000000018,
       "stdErrors": 0.39999999999999997,
       "avgAmountOfRetries": 0.4,
       "stdAmountOfRetries": 0.48989794855663565,
@@ -97734,7 +97461,7 @@
       "stdPassed": 2.4166091947189146,
       "avgFailed": 55,
       "stdFailed": 1.4142135623730951,
-      "avgErrors": 3.6,
+      "avgErrors": 1.6,
       "stdErrors": 3.2,
       "avgAmountOfRetries": 2.8,
       "stdAmountOfRetries": 1.16619037896906,
@@ -97760,7 +97487,7 @@
       "stdPassed": 0.8,
       "avgFailed": 66.4,
       "stdFailed": 0.8,
-      "avgErrors": 3,
+      "avgErrors": 1,
       "stdErrors": 1.5491933384829668,
       "avgAmountOfRetries": 0,
       "stdAmountOfRetries": 0,

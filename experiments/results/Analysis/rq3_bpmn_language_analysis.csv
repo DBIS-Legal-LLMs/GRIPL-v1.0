@@ -1,0 +1,7 @@
+Language,Metric,Mean,Std Dev,Sample Size
+German,p,0.7522,0.2868,59
+German,r,0.9200,0.0941,58
+German,f1,0.7588,0.2611,59
+English,p,0.8918,0.1815,34
+English,r,0.8899,0.1396,34
+English,f1,0.8576,0.1753,34

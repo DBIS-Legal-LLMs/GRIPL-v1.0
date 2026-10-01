@@ -3,10 +3,17 @@ import pandas as pd
 from statsmodels.stats.inter_rater import fleiss_kappa
 from scipy.stats import norm
 
-df_aktivitaeten = pd.read_excel('labeled_activities.xlsx')
+df_aktivitaeten = pd.read_excel('annotations.xlsx', sheet_name='annotations')
 
 rater_cols = ['annotator_1', 'annotator_2', 'annotator_3']
 rater_data = df_aktivitaeten[rater_cols].dropna()
+
+# Nur 0/1 erlaubt, sonst würden Aktivitäten stillschweigend falsch gezählt
+invalid = ~rater_data.isin([0, 1]).all(axis=1)
+if invalid.any():
+    raise ValueError(f"Ungültige Werte (nicht 0/1) in Zeilen: {list(rater_data.index[invalid] + 2)}")
+print(f"Aktivitäten mit drei Labels: {len(rater_data)} von {len(df_aktivitaeten)}")
+print(f"Aktivitäten mit Uneinigkeit: {(rater_data.nunique(axis=1) > 1).sum()}")
 
 formatted_data = {
     f"Category {cat}": [(rater_data.iloc[i] == cat).sum() for i in range(len(rater_data))] 
@@ -39,7 +46,6 @@ if variance > 0:
 
     print("### STATISTIK ERGEBNISSE ###")
     print(f"Fleiss' Kappa:           {kappa:.4f}")
-    print(f"Z-Wert:                  {z_value:.4f}")
     print(f"P-Wert:                  {p_value:.4e}")
     print(f"95% Konfidenzintervall:  ({conf_interval[0]:.4f}, {conf_interval[1]:.4f})")
 else:
